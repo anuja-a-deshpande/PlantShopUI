@@ -13,14 +13,14 @@ import Detail from '../screens/Detail';
     return (
       <DrawerContentScrollView {...props}>
         <DrawerItemList {...props} />
-        <DrawerItem
+        {/* <DrawerItem
           label="Close drawer"
           onPress={() => props.navigation.dispatch(DrawerActions.closeDrawer())}
         />
         <DrawerItem
           label="Toggle drawer"
           onPress={() => props.navigation.dispatch(DrawerActions.toggleDrawer())}
-        />
+        /> */}
       </DrawerContentScrollView>
     );
   }
