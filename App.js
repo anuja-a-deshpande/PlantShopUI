@@ -8,7 +8,8 @@ export default class App extends React.Component {
   {
     return (
       <NavigationContainer>
-      <MyDrawer />
+      {/* <MyDrawer /> */}
+      <AppNavigator/>
     </NavigationContainer>
   );}
 }
