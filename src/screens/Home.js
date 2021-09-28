@@ -140,7 +140,7 @@ export default class Home extends React.Component{
                       }}
                   />
                   <TouchableOpacity 
-                      onPress={()=>navigation.navigate("Detail")}
+                      onPress={()=>this.props.navigation.navigate("Detail")}
                       style={{
                           height:250,
                           elevation:2,
