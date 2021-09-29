@@ -40,10 +40,15 @@ export default class Home extends React.Component{
                       }}>Hi Uishopy</Text>
                  </View>
                  <View style={{width:"50%",alignItems:"flex-end"}}>
+                     <TouchableOpacity
+                     onPress={()=>this.props.navigation.navigate("Profile")}
+                     >
+
                       <Image
-                          source={require('../../assets/images/g.png')}
+                          source={require('../../assets/images/2.png')}
                           style={{height:60,width:60}}
                       />
+                      </TouchableOpacity>
                  </View>
              </View>
          </View>
