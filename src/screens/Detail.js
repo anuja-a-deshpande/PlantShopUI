@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, Text,Image } from 'react-native'
-// import SwiperComponent from '../components/SwiperComponent'
+import SwiperComponent from '../components/SwiperComponent'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 const Detail = ({navigation}) => {
@@ -15,7 +15,7 @@ const Detail = ({navigation}) => {
                 width:"100%",
                 height:"90%"
             }}>
-                <View style={{width:"10%",paddingLeft:20}}>
+                <View style={{width:"20%",paddingLeft:20}}>
                     <TouchableOpacity onPress={()=>navigation.goBack()}>
                         <Image
                             source={require('../../assets/images/17.png')}
@@ -80,7 +80,7 @@ const Detail = ({navigation}) => {
                         </View>  
                 </View>
                 <View style={{width:"90%"}}>
-                        {/* <SwiperComponent/> */}
+                        <SwiperComponent/>
                 </View>
             </View>
 
